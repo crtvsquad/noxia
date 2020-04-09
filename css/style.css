@@ -1,0 +1,998 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.mt-10{
+    margin-top:10px
+}
+.mt-15{
+    margin-top:15px
+}
+.mt-20{
+    margin-top:20px
+}
+.mt-25{
+    margin-top:25px
+}
+.mt-30{
+    margin-top:30px
+}
+.mt-35{
+    margin-top:35px
+}
+.mt-40{
+    margin-top:40px
+}
+.mt-45{
+    margin-top:45px
+}
+.mt-50{
+    margin-top:50px
+}
+.mt-60{
+    margin-top:60px
+}
+
+.mt-70{
+    margin-top:70px
+}
+.mt-80{
+    margin-top:80px
+}.mt-90{
+    margin-top:90px
+}.mt-100{
+    margin-top:100px
+}
+
+
+.pt-10{
+   padding-top: 10px;
+}
+
+.pt-15{
+    padding-top: 15px;
+ }
+
+ .pt-20{
+    padding-top: 20px;
+ }
+
+ .pt-25{
+    padding-top: 25px;
+ }
+
+ .pt-30{
+    padding-top: 30px;
+ }
+
+ .pt-35{
+    padding-top: 35px;
+ }
+
+ .pt-40{
+    padding-top: 40px;
+ }
+
+ .pt-45{
+    padding-top: 45px;
+ }
+
+.pt-50{
+    padding-top: 50px;
+ }
+
+
+ .pt-60{
+    padding-top: 60px;
+ }
+
+ .pt-70{
+    padding-top: 70px;
+ }
+
+ .pt-80{
+    padding-top: 80px;
+ }
+
+ .pt-90{
+    padding-top: 90px;
+ }
+ .pt-100{
+    padding-top: 100px;
+ }
+
+
+
+
+
+body{
+   
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+  
+}
+
+.top{
+height: 50px;
+z-index: 100;
+
+
+
+}
+.menutop{
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.178);
+   
+}
+
+.static{
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:red
+
+}
+.message i{
+   
+margin: 18px 0px;
+   
+width: 18px;
+   
+height: 14px;
+color: #FFFFFF;
+}
+.message span{
+    font-size: 16px;
+    color: #FFFFFF;
+     padding:11px 0px 0px 5px;
+     color: #FFFFFF;
+}
+.call i{
+   
+margin: 18px 0px;
+   
+width: 18px;
+   
+height: 14px;
+color: #FFFFFF;
+}
+.call span{
+    font-size: 16px;
+    color: #FFFFFF;
+     padding:11px 0px 0px 5px
+}
+.top ul{
+    display: flex;
+    align-items: flex-end;
+ position: absolute;
+ right: 0;
+}
+.top ul a{
+    width: 8px;
+    height: 14px;
+    margin: 16px 15px;
+    color: #FFFFFF;
+}
+
+.navbar-nav li a:hover{
+    color:#EE3364
+}
+.top ul a:hover{
+    color: #EE3364;
+}
+
+/**************TOp End ****************/
+
+/**************MEnu Start ****************/
+nav.navbar {
+    height: 100px!important;
+    z-index: 10;
+    transition: all ease .2s;
+   
+}
+.logo a {
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+
+
+.nav-icion i{
+    width: 18px;
+    height: 21px;
+    margin-left: 15px;
+    margin-top: 14px;
+    color: #FFFFFF;
+
+}
+i.fas.fa-align-justify {
+    color: white;
+    font-size: 36px;
+    margin-right: 10px;
+}
+nav .container{
+    display: flex;
+ 
+} 
+.navbar-nav li a:hover{
+    color:#EE3364
+}
+.main-menu ul{
+    padding: 0;
+    margin: 0;
+    }
+.main-menu {
+    margin-top: 30px;
+    width: 100%;
+    text-align: end;
+    margin-right: 30px;
+}
+
+
+
+.main-menu ul li{
+
+
+
+list-style-type: none;
+
+display: inline-block;
+}
+.main-menu ul li a{
+
+color: white;
+
+padding: 10px 15px;
+
+font-size: 20px;
+}
+.nav-icion {
+    margin-top: 23px;
+    margin-right: -8px;
+}
+.nav-icion ul {
+   padding: 0;
+   margin: 0;
+   display: flex;
+}
+
+
+/***********Menu End ***********/
+
+/************** Banner Start ****************/
+.banner {
+    width: 100%;
+
+    background-image: url(../image/bggbanner.png);
+  background-position-x: 40%;
+  
+}
+
+.banner-area .row img{
+    width: 590px;
+}
+
+.banner-area .row h1 {
+    font-size: 60px;
+    color: white;
+}
+.banner-area .row p{
+    font-size: 20px;
+    color: white;
+}
+a.btn.btn-danger.send {
+    width: 170px;
+    height: 48px;
+    padding-top: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+
+/***********Banner End ***********/
+
+/************** Page  Start ****************/
+
+
+.page h2 {
+    width: 500px;
+    margin: auto;
+}
+.page-item {
+    width: 100%;
+    padding: 40px 30px;
+    height: 280px;
+    background-color: whitesmoke;
+    border:1px solid white ;
+    transition: all ease .3s;
+}
+.page .page-image {
+    width: 84px;
+    height: 84px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    transition: all ease .5s;
+}
+.page .page-image img {
+    width: 37px;
+    height: 37px;
+    /* text-align: center; */
+    /* display: block; */
+    margin: auto;
+}
+.page h3 {
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.
+.page p {
+    width: 310px;
+    height: 71px;
+    font-size: 15px;
+}
+.page-item:hover{
+ box-shadow: -webkit-box-shadow: 0px -1px 12px 9px rgba(227,227,227,1);
+ -moz-box-shadow: 0px -1px 12px 9px rgba(227,227,227,1);
+ box-shadow: 0px -1px 12px 9px rgba(227,227,227,1);
+ border:1px solid #EE3364;
+
+}
+.page-item:hover .page-image{
+    background-color:#EE3364
+}
+
+.view {
+    width: 190px;
+    height: 55px;
+    background-color: #EE3364;
+    color: white;
+    padding-top: 16px;
+    margin: auto;
+    transition: all ease .10s;
+    border: 1px solid#EE3364
+}
+
+a.btn.mt-5:hover{
+    opacity: 0.8;
+}
+
+
+/***********Page End ***********/
+
+/************** Portfolio   Start ****************/
+.portfolio{
+width: 100%;
+background-color: #EDF7FF;
+}
+.portfolio .row .port-left{
+
+}
+.port-left h2{
+    font-size: 36px;
+    width: 415px;
+    
+
+}
+.port-left p{
+    font-size: 16px;
+    color: #484848;
+}
+.signature img{
+    
+}
+.signature h4{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    color: #7E7E7E;
+    
+}
+.signature{
+    display: flex;
+    align-items: center;
+}
+.signature span{
+    font-size: 19px;
+    color:#2C2B2A;  
+}
+
+.port-right{
+
+}
+.port-right h2 {
+    font-size: 36px;
+    width: 435px;
+    height: 80px;
+}
+.port-right .prog{
+    margin-top: 15px;
+  
+}
+.port-right h5 {
+    display: inline;
+    font-size: 14px;
+    font-style: italic;
+}
+.port-right h6{
+    display: inline;
+    float: right;
+    font-size: 14px;
+    font-style: italic;
+}
+.progress-bar{
+    background-color: #EE3364;
+  
+}
+.progress{
+    height: 10px;
+    background-color: white;
+}
+.pogo{
+    margin-top: 29px;
+}
+
+
+/***********PortfolioEnd ***********/
+
+/************** video   Start ****************/
+
+.video {
+    height: 500px;
+    width: 100%;
+    background-image: url(../image/videoimg.png);
+    padding-top: 120px;
+    background-size: cover;
+    background-position: 24%;
+}
+.play{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #FF434B;
+    cursor: pointer;
+
+
+}
+.play img{
+    width: 24px;
+    height: 24px;
+    transition: all ease .1s;
+}
+
+.video h2 {
+    font-size: 52px;
+    width: 900px;
+    margin: auto;
+
+}
+.play:hover  img{
+    width: 32px;
+    height: 32px;
+}
+
+/***********video End ***********/
+
+/**************  media section Start ****************/
+.media-section{
+    width: 100%;
+    background-color: #1B1B1B;
+  
+}
+.media {
+    width: 236px;
+}
+
+.media-section i {
+    font-size: 60px;
+    color: #EE3364;
+    margin-top:6px;
+    height: 40px;
+   
+}
+.media-section .media-body h2{
+color: #FDF4B4;
+margin-top: 20px;
+}
+.media-section .media-body span{
+    font-size: 18px;
+}
+
+
+
+/******** media section End *******/
+
+/************** project  Start ****************/
+
+.back {
+    width: 450px;
+    height: 500px;
+   
+}
+
+
+
+.project .row .col-12 p{
+    color: gray
+}
+.list{
+    
+}
+.list ul {
+    
+    position: absolute;
+    left: -24px;
+    
+}
+.list ul li{
+    list-style-type: none;
+    padding: 5px 5px 5px 0px;
+   
+}
+.list ul li i{
+    font-size: 12px;
+    color: #EE3364;
+    margin-right: 10px;
+}
+.view-message {
+    margin-top: 200px;
+    width: 170px;
+    padding-left: 13px;
+    padding-top: 9px;
+}
+
+/******** project  End *******/
+
+/**********  showcase Start *************/
+.showcase{
+width: 100%;
+background-color: #F2F2F2;
+}
+.showcase h2{
+    font-weight: bold;
+
+}
+.showcase h6{
+    color:#C82333 ;
+}
+.showcase .row .dark-img {
+    width: 100%;
+    position: relative;
+   
+  
+}
+.showcase .row .dark-img img {
+    width: 100%;
+
+    opacity: 1;
+    height: 353px;
+}
+
+.showcase .dark .dark-text{
+opacity: ;
+
+position: absolute;
+top: 50px;
+right: 0;
+left: 0;
+color: white;
+opacity: 0;
+visibility: hidden;
+transition: all ease 1s;
+
+
+}
+.dark-text i{
+   font-size: 36px;
+}
+.dark-text h2{
+font-size: 48px;
+transition: all ease .15s;
+}
+.dark-text h6{
+    font-size: 14px;
+    transition: all ease .15s;
+
+}
+.dark-text p{
+    font-size: 18px;
+    transition: all ease .15s;
+
+}
+
+
+.dark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.842);
+}
+
+.dark:hover .dark-img img{
+opacity: 0.1;
+
+}
+.dark:hover .dark-text{
+opacity: 1;
+visibility: visible;
+    }
+.showcase button{
+    margin-top: 30px!important;
+    margin-bottom: 30px!important;
+    width: 180px;
+    height: 50px;
+    background-color: #EE3364;
+    color: white;
+    padding-top: 5px;
+    transition: all ease .10s;
+    border: 1px solid#EE3364;
+    font-size: 18px;
+}
+/******** project  End *******/
+
+/**********  showcase Start *************/
+
+ .package .card{
+     height: 440px;
+     cursor: pointer;
+     
+ }
+ .card h2{
+    
+ }
+ .card h6{
+    transition: all ease .2s;
+ }
+ .card h3{
+    transition: all ease .2s;
+ }
+ .card p{
+    transition: all ease .2s;
+ }
+.package span {
+    line-height: -4;
+    word-spacing: -17px;
+    transition: all ease .2s;
+
+   
+}
+.card a{
+    width: 180px!important;
+}
+.card-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/paln.png);
+    background-position-x: 78%;
+    background-size: 99%;
+    background-position-y: 31%;
+    filter: brightness(19px);
+    filter: brightness(0.5);
+    transition: all ease .1s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+
+    background-repeat: no-repeat;
+}
+.card:hover .card-img{
+    opacity: .7;
+   
+    visibility: visible
+}
+.card-fact{
+    z-index: 200;
+}
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.904);
+}
+
+.card:hover h3{
+    color: white;
+}
+.card:hover h6{
+    color: white;
+}
+.card:hover span{
+    color: white;
+}
+.card:hover p{
+    color: white!important;
+}
+.card:hover a{
+    color: white;
+    background: none!important;
+    border: 1px solid white;
+}
+.card a:hover{
+    background-color:gray!important;
+   
+}
+
+/********  showcase End *******/
+
+/**********  list-image Start *************/
+
+.full-image{
+overflow: hidden;
+}
+.full-image .item-img{
+    width: 20%;
+    float: left;
+    height: 400px;
+    cursor: pointer;
+}
+.list-img{
+    opacity: 1;
+    height: 400px;
+    width: 100%;
+   
+   
+}
+.fluid-text{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.829);
+
+    opacity: 0;
+    transition: all ease .5s;
+}
+.item-img  h4{
+    top:160px;
+    right: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    opacity: 0;
+    letter-spacing: 2px;
+    transition: all ease .5s;
+
+ 
+}
+.item-img  p{
+    top:210px;
+    right: 0;
+    left: 0;
+    font-size: 17px;
+    color: red;
+    opacity: 0;
+    transition: all ease .5s;
+    letter-spacing: 2px;
+
+}
+
+.item-img:hover .fluid-text{
+    opacity: 1;
+}
+.item-img:hover h4{
+    opacity: 1
+}
+.item-img:hover p{
+    opacity: 1
+}
+
+
+
+
+/********  list-image End *******/
+
+/**********  Nasa Start *************/
+.nasa{
+    width: 100%;
+    background-color: #F2F2F2;
+    position: relative;
+    
+}
+.rpator {
+    left: 10px;
+    bottom: 0;
+    width: 35%;
+    z-index: 200
+}
+.lpator{
+   right: 0;
+    bottom: 0;
+   
+}
+.nasa img{
+    height: 440px;;
+}
+.nasa h2{
+    font-size: 48px;
+}
+
+
+.nasa select{
+    width: 45%;
+    margin-right: 5%;
+    float: left;
+    padding-right: 20px;
+    background-color: #CACACA;
+    border: 1px solid #CACACA;
+    height: 45px;
+}
+.nasa .name{
+    width: 45%!important;
+    background-color: #CACACA;
+    border: 1px solid #CACACA;
+    height: 45px;
+    
+}
+.nasa .number{
+    width: 45%!important;
+    float: left;
+    margin-right: 5%;
+    margin-top: 25px;
+    background-color: #CACACA;
+    border: 1px solid #CACACA;
+    height: 45px;
+    
+}
+.nasa .btnn{
+    width: 45%!important;
+    margin-top: 25px;
+    background-color: #EE3364;
+    border: 1px solid #CACACA;
+    height: 45px;
+    color: white;
+    padding-top:10px;
+    
+}
+
+
+/********   Nasa End *******/
+
+/********** slider  Start *************/
+
+.silder-section{
+   
+}
+
+.slider-img{
+    margin: 0px 35px;
+    width:106px ;
+    height: 106px;
+    border-radius: 50px;
+   
+}
+.slider p {
+    color: #8D8D8D;
+    width: 750px;
+    margin: auto;
+}
+
+.slider-item {
+    width: 348px;
+    text-align: center;
+}
+.own {
+   padding-top:23px;
+   display: none;
+}
+.up{
+   padding-top: 23px;
+}
+.slider h6{
+    font-size: 14px;
+    color: #C4C4C4
+}
+.slider p{
+    color: #8D8D8D;
+    padding-bottom: 25px;
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+   
+}
+li.slick-active {
+    background-color: burlywood!important;
+}
+
+.slick-dots li {
+   
+    background-color: black;
+    border-radius: 50px;
+    width: 10px;
+    height: 10px;
+}
+
+
+
+
+/********   slider End *******/
+
+/********* slide-logo  Start *********/
+
+
+.slide-logo .slide-logo{
+width: 95%;
+margin: auto;
+}
+.slider-logo img {
+    margin-left: 36px;
+}
+
+.slide-logo img {
+    width: 130px;
+    height: 75px;
+}
+.slick-arrow {
+    display: none;
+    margin-right: 10px;
+    opacity: 0;
+}
+li.slick-active {
+    background-color: white;
+}
+
+
+
+/********  slide-logo End *******/
+
+/********* Footer Start *********/
+.footer{
+    width: 100%;
+    background-color: #282828;
+}
+.footer p{
+    width: 570px;
+    margin: auto;
+    color: ##A5A5A5;
+}
+.footer a{
+    display: inline-block;
+   font-size: 22px;
+   margin: 8px 10px;
+   color: #EE3364
+    
+} 
+.footer-icon {
+    padding: 20px 0px;
+    text-align: center;
+}
+.footer-icon ul{
+    width: 100%;
+    display: block;
+    text-align: center;
+
+}
+
+.copy{
+    width: 100%;
+    background-color: #171717;
+    height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+/****************scroll************/
+
+.botom i {
+    padding: 10px 12px 0px 12px;
+    background-color: black;
+    color: white;
+    font-size: 32px;
+    display: inline-block;
+    border-radius: 10% 10% 0% 0%;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    display: none;
+    cursor: pointer;
+}

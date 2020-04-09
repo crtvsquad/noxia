@@ -1,0 +1,607 @@
+
+
+
+@media (min-width: 320px) and (max-width: 575px)   {
+    .menutop{
+        height: 60px;
+        z-index: 1;
+    }
+
+    .banner-area .row h1 {
+        font-size: 39px;
+        color: white;
+    }
+
+    a.navbar-brand {
+        font-size: 50px;
+        color: #FFFFFF;
+        overflow: hidden;
+        margin: 4px .;
+        padding: 0;
+        margin: 5px 0px;
+    }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        cursor: pointer;
+        margin-top: -13px;
+    }
+
+.navbar-nav li a{
+    color: red;
+}
+   
+    .video h2 {
+        font-size: 22px;
+        width: 320px;
+        margin: auto;
+    }
+.page h2 {
+        width: 100%;
+        margin: auto;
+        font-size: 28px
+    }
+    .media {
+        margin: auto;
+     
+    }
+    .page h3 {
+        font-size: 22px;
+        margin: 10px 0px;
+    }
+    .page p {
+      
+        font-size: 14px;
+    }  
+    .port-left h2{
+        font-size: 28px;
+        width: 100%;
+ }
+ .port-right h2{
+    font-size: 24px;
+    width: 100%;
+}
+.video h2 {
+    font-size: 24px;
+    width: 90%;
+    margin: auto;
+ }
+ .view{
+    width: 170px;
+    height: 45px;
+    padding-top: 12px;
+  
+}
+.play{
+    width: 50px;
+    height: 50px;
+    }
+
+    .back {
+        width: 384px;
+        height: 400px;
+        margin: auto;
+        display: block;
+        text-align: center;
+    }
+.package h2{
+    font-size: 36px!important;
+}
+.showcase h2{
+    font-size: 36px!important;
+}
+
+.full-image .item-img{
+    width: 80%;
+    float: none;
+    height: 400px;
+    margin: auto;
+    
+}
+.list-img{
+   
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+   
+}
+.nasa h2{
+    font-size: 24px;
+   
+}
+.nasa p{
+   
+    text-align: justify
+}
+
+.nasa select{
+    width: 100%;
+    
+    float: none;
+    padding-right: 20px;
+  
+    height: 45px;
+    margin: 8px auto;
+}
+.nasa .name{
+    width: 100%!important;
+  
+    height: 45px;
+   
+    margin: 8px auto;
+}
+.nasa .number{
+    width: 100%!important;
+    float: none;
+   
+display: block;
+    height: 45px;
+    
+    margin: 10px auto;
+}
+.nasa .btnn{
+    width: 50%!important;
+    margin-top: 15px;
+    background-color: #EE3364;
+    padding-top:10px;
+   text-align: center;
+   margin: 8px auto;
+    
+}
+
+.rpator {
+   
+    top: 10px;
+     width: 35%;
+     bottom: 10px;
+ }
+
+ .lpator{
+    right: 0;
+    top: 20px;
+    
+ }
+ .slider-img{
+    margin: 0px 10px;
+}
+
+.slider-item {
+    width: 300px;
+    text-align: center;
+}
+ .slide-logo .slide-logo{
+    width: 100%;
+   
+    }
+
+    .slide-logo .slide-logo{
+        margin: 0px 5px;
+    }
+
+    .slider-logo img {
+       margin-left: 0;
+       display: block;
+       text-align: center;
+       margin: auto;
+    }
+
+    .slider p {
+        color: #8D8D8D;
+        width: 90%;
+        margin: auto;
+        text-align: justify;
+    }
+
+    .footer p{
+        width: 100%;
+        margin: auto;
+        color: #A5A5A5;
+    }
+
+.copy p {
+ font-size: 16px;
+ width: 90%;
+ margin: auto;
+}
+
+.navbar .navbar-nav {
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+    height: 350px!important;
+    transition: all ease .1s;
+    margin-top: -3px;
+
+}
+
+
+.navbar-nav li a {
+    color: pink;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0!important;
+    background-color: #3C21A4;
+    border-bottom: 2px solid white;
+    padding: 13px 0px;
+    z-index: 500;
+}
+
+li.nav-item {
+    display: block;
+    width: 100%;
+    text-align: center;
+      z-index: 999;
+    font-style: italic;
+    margin: auto;
+
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    margin-top: -13px;
+}
+
+.banner{
+    z-index: 999;
+}
+.mean-container .mean-bar {
+      
+    background: lightslategray;
+    padding: 4px 0;
+    min-height: 56px;
+    z-index: 1;
+    position: fixed;
+}
+.logo a {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: 999;
+    /* padding: 5px; */
+    text-decoration: none;
+    font-size: 48px;
+    padding: 8px;
+    position: fixed;
+}
+
+.meanmenu-reveal {
+  padding: 22px;
+    width: 29px;
+    height: 38px;
+    margin-top: -5px;
+    position: fixed;
+}
+
+.main-menu ul{
+margin-top: 10px;
+}
+.mean-container a.meanmenu-reveal {
+padding: 21px 23px;
+}
+.mean-container a.meanmenu-reveal span {
+height: 4px;
+margin-top: 4px;
+}
+.mean-container .mean-nav {
+margin-top: 60px;
+}
+
+.mean-container .mean-nav ul li a {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+.botom i {
+    padding: 5px 8px 0px 8px;
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    display: inline-block;
+    border-radius: 10% 10% 0% 0%;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    display: none;
+    cursor: pointer;
+}
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .menutop{
+        height:60px;
+    }
+        .mean-container .mean-bar {
+      
+        background: lightslategray;
+        padding: 4px 0;
+        min-height: 60px;
+        z-index: 1;
+        position: fixed;
+    }
+    .logo a {
+        position: absolute;
+        top: -10px;
+        left: 0;
+        z-index: 999;
+        /* padding: 5px; */
+        text-decoration: none;
+        font-size: 48px;
+        padding: 8px;
+        position: fixed;
+    }
+
+.meanmenu-reveal {
+      padding: 22px;
+        width: 29px;
+        height: 38px;
+        margin-top: -5px;
+    }
+
+.main-menu ul{
+    margin-top: 10px;
+}
+.mean-container a.meanmenu-reveal {
+  padding: 21px 23px;
+}
+.mean-container a.meanmenu-reveal span {
+ height: 4px;
+margin-top: 4px;
+}
+.mean-container .mean-nav {
+    margin-top: 60px;
+}
+.mean-container .mean-nav ul li a {
+    background-color: lightslategray;
+    text-align: center;
+}
+
+
+
+     
+     a.navbar-brand {
+        font-size: 50px;
+        color: #FFFFFF;
+       
+     }
+
+     .call span {
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 11px 0px 0px 4px;
+        
+    }
+
+
+    .message span {
+        font-size: 16px;
+        color: #FFFFFF;
+        padding: 11px 0px 0px 4px;
+       
+    }
+    .banner-area .row img{
+        width: 490px;
+    }
+    .video h2 {
+        font-size: 30px;
+        width: 500px;
+        margin: auto;
+     }
+
+    .media-section .media-body span{
+        font-size: 15px;
+    }
+    .media{
+       margin: auto;
+    }
+    .play{
+        width: 60px;
+        height: 60px;
+  }
+  .back {
+
+   
+    display: block;
+    text-align: center;
+}
+   
+.full-image .item-img{
+    width: 100%;
+    float: none;
+    height: 400px;
+}
+
+.full-image .item-img{
+    width: 80%;
+    float: none;
+    height: 400px;
+    margin: auto;
+    
+}
+.list-img{
+   
+    height: 400px;
+    width: 100%;
+    border-radius: 8px;
+   
+}
+.nasa h2{
+    font-size: 36px;
+}
+.nasa select{
+    width: 100%;
+    
+    float: none;
+    padding-right: 20px;
+  
+    height: 45px;
+    margin: 8px auto;
+}
+.nasa .name{
+    width: 100%!important;
+  
+    height: 45px;
+   
+    margin: 8px auto;
+}
+.nasa .number{
+    width: 100%!important;
+    float: none;
+   
+display: block;
+    height: 45px;
+    
+    margin: 10px auto;
+}
+.nasa .btnn{
+    width: 50%!important;
+    margin-top: 15px;
+    background-color: #EE3364;
+    padding-top:10px;
+   text-align: center;
+   margin: 8px auto;
+    
+}
+.rpator {
+   
+   top: 10px;
+    width: 35%;
+}
+.lpator{
+   right: 0;
+   top: 0;
+}
+.slider p {
+    color: #8D8D8D;
+    width: 500px;
+    margin: auto;
+}
+.footer p{
+    width: 480px;
+    margin: auto;
+    color: #A5A5A5;
+}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-menu {
+        margin-top: 30px;
+        width: 100%;
+        text-align: end;
+        margin-right: 0px;
+    }
+    
+    
+    
+    .main-menu ul li{
+    
+    
+    
+    list-style-type: none;
+    
+    display: inline-block;
+    }
+    .main-menu ul li a{
+    
+    color: white;
+    
+    padding: 10px 8px;
+    
+    font-size: 18px;
+    }
+
+    .banner-area .row h1 {
+        font-size: 42px;
+        color: white;
+    }
+
+        .banner-area .row p {
+            font-size: 18px
+        }
+    
+        .navbar-brand a {
+            font-size: 50px;
+            color: #FFFFFF;
+        }
+        .video h2 {
+            font-size: 40px;
+            width: 700px;
+            margin: auto;
+         }
+
+
+
+        .media-section .media-body span{
+            font-size: 15px;
+ }
+ .nasa h2{
+    font-size: 36px;
+}
+.nasa img{
+    height: 450px;
+    
+}
+.slider p {
+    color: #8D8D8D;
+    width: 700px;
+    margin: auto;
+}
+
+}
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px)  {
+.page h3 {
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+
+.page p {
+    width: 297px;
+    height: 71px;
+    font-size: 13px;
+}
+.banner-area .row h1 {
+    font-size: 56px;
+    color: white;
+}
+
+
+a.navbar-brand {
+    font-size: 52px;
+  
+ } 
+
+
+.media-section .media-body span{
+    font-size: 15px;
+}
+.nasa h2{
+    font-size: 42px;
+}
+.nasa img{
+    height: 460px;;
+}
+.slider-logo img {
+    margin-left: 20px;
+}
+.slider p {
+    color: #8D8D8D;
+    width: 700px;
+    margin: auto;
+}
+.page p {
+    width: 250px;
+    height: 71px;
+    font-size: 15px;
+}
+
+}
